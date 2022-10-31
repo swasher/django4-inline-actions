@@ -1,10 +1,10 @@
-# django-inline-actions
+# django4-inline-actions
 
-![PyPI](https://img.shields.io/pypi/v/django-inline-actions?style=flat-square)
-![GitHub Workflow Status (master)](https://img.shields.io/github/workflow/status/escaped/django-inline-actions/Test%20&%20Lint/master?style=flat-square)
-![Coveralls github branch](https://img.shields.io/coveralls/github/escaped/django-inline-actions/master?style=flat-square)
-![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django-inline-actions?style=flat-square)
-![PyPI - License](https://img.shields.io/pypi/l/django-inline-actions?style=flat-square)
+![PyPI](https://img.shields.io/pypi/v/django4-inline-actions?style=flat-square)
+<!-- ![GitHub Workflow Status (master)](https://img.shields.io/github/workflow/status/HiroshiFuu/django4-inline-actions/Test%20&%20Lint/master?style=flat-square) -->
+<!-- ![Coveralls github branch](https://img.shields.io/coveralls/github/HiroshiFuu/django4-inline-actions/master?style=flat-square) -->
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django4-inline-actions?style=flat-square)
+![PyPI - License](https://img.shields.io/pypi/l/django4-inline-actions?style=flat-square)
 
 django4-inline-actions adds actions to each row of the ModelAdmin or InlineModelAdmin. Add support for Django 4.
 
@@ -14,15 +14,15 @@ django4-inline-actions adds actions to each row of the ModelAdmin or InlineModel
 
 ## Screenshot
 
-![Changelist example](https://raw.githubusercontent.com/escaped/django-inline-actions/master/example_changelist.png)
-![Inline example](https://raw.githubusercontent.com/escaped/django-inline-actions/master/example_inline.png)
+![Changelist example](https://raw.githubusercontent.com/HiroshiFuu/django4-inline-actions/master/example_changelist.png)
+![Inline example](https://raw.githubusercontent.com/HiroshiFuu/django4-inline-actions/master/example_inline.png)
 
 ## Installation
 
-1. Install django-inline-actions
+1. Install django4-inline-actions
 
    ```sh
-   pip install django-inline-actions
+   pip install django4-inline-actions
    ```
 
 2. Add `inline_actions` to your `INSTALLED_APPS`.
@@ -232,7 +232,7 @@ This will be simplified in the next major release!
 
 
 In order to have an intermediate form, you must add some information about the triggered action.
-`django-inline-actions` provides a handy templatetag `render_inline_action_fields`,
+`django4-inline-actions` provides a handy templatetag `render_inline_action_fields`,
 which adds these information as hidden fields to a form.
 
 ```html
@@ -285,12 +285,12 @@ The corresponding action could look like
 
 ## Example Application
 
-You can see `django-inline-actions` in action using the bundled test application `test_proj`.
+You can see `django4-inline-actions` in action using the bundled test application `test_proj`.
 Use [`poetry`](https://poetry.eustace.io/) to run it.
 
 ```bash
-git clone https://github.com/escaped/django-inline-actions.git
-cd django-inline-actions/
+git clone https://github.com/HiroshiFuu/django4-inline-actions.git
+cd django4-inline-actions/
 poetry install
 poetry run pip install Django
 cd test_proj
@@ -340,7 +340,7 @@ def test_action_XXX(admin_site):
 Alternatively, you can test your actions on the real Django admin page.
 You will have to log in, navigate to the corresponding admin and trigger a click on the action.
 To simplify this process you can use [django-webtest](https://github.com/django-webtest/django-webtest).
-Example can be found [here](https://github.com/escaped/django-inline-actions/blob/76b6f6b83c6d1830c2ad71512cd1e85362936dbd/test_proj/blog/tests/test_inline_admin.py#L146).
+Example can be found [here](https://github.com/HiroshiFuu/django4-inline-actions/blob/master/test_proj/blog/tests/test_inline_admin.py#L146).
 
 ## Development
 
