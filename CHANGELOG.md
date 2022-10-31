@@ -11,6 +11,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 * removed RemovedInDjango40Warning warning message, thanks to @Ivan-Feofanov
 
+## [1.0] - 2022-10-31
+
+### Changed
+
+* dropped support for python below 3.8 as Django 4 requires min 3.8
+
+### Added
+
+* support for django 4.x
+
 ## [2.4.0] - 2021-02-08
 
 ### Fixed

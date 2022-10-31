@@ -6,11 +6,11 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django-inline-actions?style=flat-square)
 ![PyPI - License](https://img.shields.io/pypi/l/django-inline-actions?style=flat-square)
 
-django-inline-actions adds actions to each row of the ModelAdmin or InlineModelAdmin.
+django4-inline-actions adds actions to each row of the ModelAdmin or InlineModelAdmin. Add support for Django 4.
 
 ## Requirements
 
-* Python 3.6.1 or newer
+* Python 3.8 or newer
 
 ## Screenshot
 
