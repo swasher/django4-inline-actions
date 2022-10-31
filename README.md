@@ -1,10 +1,10 @@
 # django4-inline-actions
 
 ![PyPI](https://img.shields.io/pypi/v/django4-inline-actions?style=flat-square)
-<!-- ![GitHub Workflow Status (master)](https://img.shields.io/github/workflow/status/HiroshiFuu/django4-inline-actions/Test%20&%20Lint/master?style=flat-square) -->
-<!-- ![Coveralls github branch](https://img.shields.io/coveralls/github/HiroshiFuu/django4-inline-actions/master?style=flat-square) -->
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django4-inline-actions?style=flat-square)
 ![PyPI - License](https://img.shields.io/pypi/l/django4-inline-actions?style=flat-square)
+<!-- ![GitHub Workflow Status (master)](https://img.shields.io/github/workflow/status/HiroshiFuu/django4-inline-actions/Test%20&%20Lint/master?style=flat-square) -->
+<!-- ![Coveralls github branch](https://img.shields.io/coveralls/github/HiroshiFuu/django4-inline-actions/master?style=flat-square) -->
 
 django4-inline-actions adds actions to each row of the ModelAdmin or InlineModelAdmin. Add support for Django 4.
 
@@ -366,8 +366,11 @@ Afterwards, You can run the test suite using
 poetry run pytest
 ```
 
-This repository follows the [Conventional Commits](https://www.conventionalcommits.org/)
-style.
+This repository follows the [Conventional Commits](https://www.conventionalcommits.org/) style.
+
+## Deployment
+
+Use `setup.py` to build and upload to PyPI using `twine`.
 
 ### Cookiecutter template
 
