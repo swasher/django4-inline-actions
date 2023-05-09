@@ -132,13 +132,13 @@ class BaseInlineActionsMixin:
 
 
 class InlineActionsMixin(BaseInlineActionsMixin):
-    # def render_inline_actions(self, obj=None):
-    #     html = super().render_inline_actions(obj=obj)
-    #     # we have to add <p> tags as a workaround for invalid html
-    #     return mark_safe('</p>{}<p>'.format(html))
+    def render_inline_actions(self, obj=None):
+        html = super().render_inline_actions(obj=obj)
+        # we have to add <p> tags as a workaround for invalid html
+        return mark_safe('</p>{}<p>'.format(html))
 
-    # render_inline_actions.short_description = _("Actions")  # type: ignore
-    # render_inline_actions.allow_tags = True  # type: ignore
+    render_inline_actions.short_description = _("Actions")  # type: ignore
+    render_inline_actions.allow_tags = True  # type: ignore
 
     def get_fields(self, request, obj=None):
         # store `request` for `get_inline_actions`
