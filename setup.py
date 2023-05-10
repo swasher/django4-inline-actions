@@ -24,7 +24,7 @@ if sys.version_info < (3, 8):
 
 
 setup(name='django4-inline-actions',
-      version=1.6,
+      version=1.7,
       description='django4-inline-actions adds actions to each row of the ModelAdmin or InlineModelAdmin',
       long_description_content_type='text/markdown',
       long_description=long_description,
@@ -35,7 +35,7 @@ setup(name='django4-inline-actions',
       license='BSD',
       packages=find_packages(exclude=['test_proj', ]),
       include_package_data=True,
-      keywords="ModelAdmin inline actions",
+      keywords="Django4 ModelAdmin inline actions",
       classifiers=[
           'Development Status :: 5 - Production/Stable',
           'Framework :: Django :: 3.0',
