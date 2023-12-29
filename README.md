@@ -1,5 +1,9 @@
 # django4-inline-actions
 
+# modified by swasher:
+
+- upgraded dependencies for Django 5.0
+
 ![PyPI](https://img.shields.io/pypi/v/django4-inline-actions?style=flat-square)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django4-inline-actions?style=flat-square)
 ![PyPI - License](https://img.shields.io/pypi/l/django4-inline-actions?style=flat-square)
